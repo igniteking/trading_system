@@ -38,10 +38,6 @@ if (isset($_SESSION['email'])) {
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="mt-3 mb-0 text-sm">
-                                        <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                                        <span class="text-nowrap">Since last month</span>
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -60,10 +56,6 @@ if (isset($_SESSION['email'])) {
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="mt-3 mb-0 text-sm">
-                                        <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                                        <span class="text-nowrap">Since last month</span>
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +184,9 @@ if (isset($_SESSION['email'])) {
                                             $count = 0;
                                         }
                                         // Store the current value for the next iteration
-                                        $prev_value = $row['result'];
+                                        if ($row['result'] == 'L') {
+                                            $prev_value = $row['result'];
+                                        }
                                     }
                                     $current_capital;
                                     // print_r(array_values(mysqli_fetch_array($conn->query("SELECT current_capital FROM initaila_capital WHERE user_email = '$email'")))[0]);

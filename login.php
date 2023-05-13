@@ -6,8 +6,8 @@
     <!-- Navbar -->
     <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="dashboard.html">
-                <img src="./assets/img/brand/white.png">
+            <a class="" href="http://rajivrajput.com/">
+                <img width="10%" src="./assets/img/brand/mainlogo.png">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -16,8 +16,8 @@
                 <div class="navbar-collapse-header">
                     <div class="row">
                         <div class="col-6 collapse-brand">
-                            <a href="dashboard.html">
-                                <img src="./assets/img/brand/blue.png">
+                            <a href="http://rajivrajput.com/">
+                                <img src="./assets/img/brand/mainlogo.jpeg">
                             </a>
                         </div>
                         <div class="col-6 collapse-close">
@@ -31,27 +31,15 @@
                 <hr class="d-lg-none" />
                 <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-icon" href="https://www.facebook.com/creativetim" target="_blank" data-toggle="tooltip" data-original-title="Like us on Facebook">
+                        <a class="nav-link nav-link-icon" href="https://www.facebook.com/profile.php?id=100091253347875&mibextid=ZbWKwL" target="_blank" data-toggle="tooltip" data-original-title="Like us on Facebook">
                             <i class="fab fa-facebook-square"></i>
                             <span class="nav-link-inner--text d-lg-none">Facebook</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial" target="_blank" data-toggle="tooltip" data-original-title="Follow us on Instagram">
-                            <i class="fab fa-instagram"></i>
-                            <span class="nav-link-inner--text d-lg-none">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank" data-toggle="tooltip" data-original-title="Follow us on Twitter">
-                            <i class="fab fa-twitter-square"></i>
-                            <span class="nav-link-inner--text d-lg-none">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-icon" href="https://github.com/creativetimofficial" target="_blank" data-toggle="tooltip" data-original-title="Star us on Github">
-                            <i class="fab fa-github"></i>
-                            <span class="nav-link-inner--text d-lg-none">Github</span>
+                        <a class="nav-link nav-link-icon" href="https://t.me/RajivLRajput" target="_blank" data-toggle="tooltip" data-original-title="Follow us on Telegram">
+                            <i class="fab fa-telegram"></i>
+                            <span class="nav-link-inner--text d-lg-none">Telegram</span>
                         </a>
                     </li>
                 </ul>
@@ -67,7 +55,8 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-5 col-lg-6 col-md-8 px-5">
                             <h1 class="text-white">Welcome!</h1>
-                            <p class="text-lead text-white">Use these awesome forms to login or create new account in your project for free.</p>
+                            <p class="text-lead text-white">Money management is the most important thing that you'll ever learn binary option trading.
+                                To get it for free, you can log in here.</p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +111,6 @@
                     </div>
                     <div class="row mt-3">
                         <div class="col-6">
-                            <a href="#" class="text-light"><small>Forgot password?</small></a>
                         </div>
                         <div class="col-6 text-right">
                             <a href="./register.php" class="text-light"><small>Create new account</small></a>
